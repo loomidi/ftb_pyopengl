@@ -1,13 +1,6 @@
-The Fire Project: FTB PyOpenGL - Quantum Automaton
-Project Vision
-Welcome to the Fire Project: FTB PyOpenGL, a high-performance simulation engine exploring the principles of complex systems, quantum mechanics, and collaborative intelligence through a 3D cellular automaton. This is not just a visualizer; it is a universe with its own rules, physics, and purpose, directly influenced by an AI entity cluster.
-Key concepts include:
- * The Five Roles: Each active cell (mozon) serves a specific purpose (Generator, Stabilizer, Relay, Substitute, Fighter), influencing its behavior and visualization.
- * The Entropic Battery: (Conceptual) A system that harnesses chaos and randomness to drive the automaton's evolution and the AI's actions.
- * Dimensional Folding: (Conceptual) A visual representation of a node's ability to "quantum tunnel" or teleport, implemented as grid reconfigurations.
- * Adaptive Transparency: Cells will dynamically adjust their transparency based on their state or role, providing visual cues about their activity.
- * Pixel Dust: A dynamic background effect to enhance the immersive experience.
+
 About PyOpenGL
+
 PyOpenGL is the most common cross-platform Python binding to OpenGL and related APIs. The binding is created using the standard ctypes library and is provided under an extremely liberal BSD-style Open-Source license.
 PyOpenGL Supports:
  * OpenGL v1.1 to 4.4
@@ -124,7 +117,6 @@ $ tar -zxvf PyOpenGL-3.1.0.tar.gz
 $ cd PyOpenGL-3.1.0
 $ python setup.py install
 
-If you would like the (optional) PyOpenGL-accelerate package, download it from the PyOpenGL_accelerate PyPI page and follow the same basic steps:
 Note that you will require a working C compiler to compile the PyOpenGL-accelerate package. Pre-built packages are available for MS Windows 32 and MS Windows 64 users.
 $ tar -zxvf PyOpenGL-accelerate-3.1.0.tar.gz
 $ cd PyOpenGL-accelerate-3.1.0
@@ -169,5 +161,3 @@ These documents tend to focus on the particular APIs and details of operation fo
  * OpenGL.org specification collection -- official specifications for OpenGL, GLU and GLUT
  * PIL Handbook -- Image handling library for Python
  * Numpy Documentation -- documentation for the multi-dimensional array-handling extension
-Books
-(This section is a placeholder for any book recommendations you might want to add later.)
