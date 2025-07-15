@@ -1,7 +1,17 @@
+### Project Architecture
 
+The project is built on a pure PyOpenGL architecture for maximum performance and control. Key features include:
+
+* **Dynamic 3D Grid:** A 3D cellular automaton with a vectorized NumPy backend.
+* **Touch Capabilities:** The visualizer is optimized for touch input, translating screen taps into interactive events.
+* **OS Module Tiles & Templates:** A modular system for loading assets directly from your file system.
+* **Adaptive Transparency:** A custom shader will be built to create dynamic transparency based on a node's state.
+
+We appreciate the conceptual guidance from `OpenGLContext` and `PyOpenGL-accelerate` and have built our project to be compatible with a similar architectural philosophy.
 About PyOpenGL
 
 PyOpenGL is the most common cross-platform Python binding to OpenGL and related APIs. The binding is created using the standard ctypes library and is provided under an extremely liberal BSD-style Open-Source license.
+
 PyOpenGL Supports:
  * OpenGL v1.1 to 4.4
  * GLES 1 to 3.1 (Experimental)
